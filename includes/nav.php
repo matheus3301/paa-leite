@@ -1,14 +1,13 @@
 <?php
-    session_start();
+session_start();
 
-    if(!isset($_SESSION['nome'])){
-        header('location:login.php');
-    }else{
-        $nome = $_SESSION['nome'];
-        $login = $_SESSION['login'];
-        $id = $_SESSION['id'];
-
-    }
+if (!isset($_SESSION['nome'])) {
+    header('location:login.php');
+} else {
+    $nome = $_SESSION['nome'];
+    $login = $_SESSION['login'];
+    $id = $_SESSION['id'];
+}
 
 ?>
 <!DOCTYPE html>
@@ -19,7 +18,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="images/icon/logo-mini.png" />
-    
+
 
     <!-- Title Page-->
     <title>PAA Leite</title>
@@ -199,21 +198,22 @@
                                 <i class="fas fa-home"></i>Início</a>
                         </li>
                         <li>
-                            <a href="table.html">
-                                <i class="fas fa-table"></i>Tables</a>
+                            <a href="lancamentos.php">
+                                <i class="fas fa-rocket"></i>Lançamentos</a>
                         </li>
                         <li>
-                            <a href="form.html">
-                                <i class="far fa-check-square"></i>Forms</a>
+                            <a href="familias.php">
+                                <i class="fas fa-users"></i>Famílias</a>
                         </li>
                         <li>
-                            <a href="calendar.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
+                            <a href="entidades.php">
+                                <i class="far fa-building"></i>Entidades</a>
                         </li>
-                        <li>
-                            <a href="map.html">
-                                <i class="fas fa-map-marker-alt"></i>Maps</a>
-                        </li>
+                        <!-- <li>
+                            <a href="spots.php">
+                                <i class="fas fa-map-marker-alt"></i>Pontos de Entrega</a>
+                        </li> -->
+                        <!--
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Pages</a>
@@ -266,8 +266,8 @@
                                 <li>
                                     <a href="typo.html">Typography</a>
                                 </li>
-                            </ul>
-                        </li>
+                            </ul> 
+                        </li>-->
                     </ul>
                 </nav>
             </div>
@@ -281,14 +281,14 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="header-wrap">
-                            <form class="form-header" >
-                               
+                            <form class="form-header">
+
                             </form>
                             <div class="header-button">
                                 <div class="noti-wrap">
-                                    
-                                        
-                                    
+
+
+
                                 </div>
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
@@ -317,11 +317,11 @@
                                                     <a href="#">
                                                         <i class="zmdi zmdi-account"></i>Gerenciar Usuários</a>
                                                 </div>
-                                                
-                                                
+
+
                                             </div>
                                             <div class="account-dropdown__footer">
-                                                <a href="controller/login.php?op=logout">
+                                                <a href="api/login.php?op=logout">
                                                     <i class="zmdi zmdi-power"></i>Sair</a>
                                             </div>
                                         </div>

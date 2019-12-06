@@ -110,7 +110,7 @@
 
             $.ajax({
                 type:"POST",
-                url: "controller/login.php?op=login",
+                url: "api/login.php?op=login",
                 data: form.serialize(),
                 beforeSend:function(){
                     $("#botao").html("aguarde...");

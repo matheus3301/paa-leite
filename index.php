@@ -10,8 +10,8 @@
                             <div class="col-md-12">
                                 <div class="overview-wrap">
                                     <h2 class="title-1">Início</h2>
-                                    <button class="au-btn au-btn-icon au-btn--blue">
-                                        <i class="zmdi zmdi-plus"></i>add item</button>
+                                    <!-- <button class="au-btn au-btn-icon au-btn--blue">
+                                        <i class="zmdi zmdi-plus"></i>add item</button> -->
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                                                 <i class="zmdi zmdi-assignment-o"></i>
                                             </div>
                                             <div class="text">
-                                                <h2>1,086</h2>
+                                                <h2>186</h2>
                                                 <span>litros entregues</span>
                                             </div>
                                         </div>
@@ -77,7 +77,7 @@
                                             </div>
                                             <div class="text">
                                                 <h2>131</h2>
-                                                <span>entregas </span>
+                                                <span>lançamentos </span>
                                             </div>
                                         </div>
                                         <div class="overview-chart">
@@ -124,17 +124,17 @@
                             <div class="col-lg-6">
                                 <div class="au-card chart-percent-card">
                                     <div class="au-card-inner">
-                                        <h3 class="title-2 tm-b-5">char by %</h3>
+                                        <h3 class="title-2 tm-b-5">Distribuição do Leite</h3>
                                         <div class="row no-gutters">
                                             <div class="col-xl-6">
                                                 <div class="chart-note-wrap">
                                                     <div class="chart-note mr-0 d-block">
                                                         <span class="dot dot--blue"></span>
-                                                        <span>products</span>
+                                                        <span>Famílias</span>
                                                     </div>
                                                     <div class="chart-note mr-0 d-block">
                                                         <span class="dot dot--red"></span>
-                                                        <span>services</span>
+                                                        <span>Entidades</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -148,7 +148,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-lg-9">
                                 <h2 class="title-1 m-b-25">Earnings By Items</h2>
                                 <div class="table-responsive table--no-card m-b-40">
@@ -534,7 +534,7 @@
                             <div class="col-md-12">
                                 
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
